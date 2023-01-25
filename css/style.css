@@ -1,0 +1,131 @@
+/* Fonts */
+
+@font-face {
+  font-family: "TT Lakes Medium";
+  src: url(../fonts/TTLakes-Medium.ttf);
+}
+
+@font-face {
+  font-family: "TT Lakes Bold";
+  src: url(../fonts/TTLakes-Bold.ttf);
+}
+
+/* Body */
+
+body {
+  width: 320px;
+  background-color: #f8f8f8;
+
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1c21;
+
+  padding-left: 24px;
+}
+
+/* Header */
+
+.header {
+  padding-top: 18px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__element--logo {
+  padding-right: 62px;
+}
+
+.header__button--search {
+  padding-right: 24px;
+}
+
+.header__button {
+  transition: 0.5s;
+}
+
+.header__button:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+/* List */
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.list__block {
+  padding-bottom: 32px;
+}
+
+.list__block--contacts {
+  padding-bottom: 236px;
+}
+
+.list__block {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.list__block:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer__button {
+  padding-right: 16px;
+  padding-bottom: 16px;
+
+  transition: 0.5s;
+}
+
+.footer__button:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.contacts__button {
+  display: flex;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.contacts__button:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
+
+.contacts__button--email {
+  padding-bottom: 12px;
+}
+
+.contacts__button--phone-number {
+  padding-bottom: 40px;
+
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.language__button {
+  padding-right: 7px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.language__button:hover {
+  opacity: 50%;
+  transition: 0.5s;
+}
